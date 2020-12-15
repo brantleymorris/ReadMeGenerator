@@ -109,7 +109,8 @@ const licenses = [
 ]
 
 let createReadMe = (title, licenseBadge, description, tableContents, installation, usage, license, licenseLink, contributing, tests, gitHub, email) => {
-    return `#${title}           ${licenseBadge}
+    return `#${title}           
+    ${licenseBadge}
     
     ## Description
         ${description}
