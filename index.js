@@ -81,31 +81,31 @@ var questions = [
 const licenses = [
     {license: "Apache 2.0 License",
     link: "https://opensource.org/licenses/Apache-2.0",
-    badge: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"},
+    badge: "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)"},
     
     {license: "Boost Software License 1.0",
     link: "https://www.boost.org/LICENSE_1_0.txt",
-    badge: "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]"},
+    badge: "![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)"},
     
     {license: "BSD 3-Clause License",
     link: "https://opensource.org/licenses/BSD-3-Clause",
-    badge: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]"},
+    badge: "![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)"},
     
     {license: "BSD 2-Clause License",
     link: "https://opensource.org/licenses/BSD-2-Clause",
-    badge: "[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)]"},
+    badge: "![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)"},
     
     {license: "MIT License",
     link: "https://opensource.org/licenses/MIT",
-    badge: "[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]"},
+    badge: "![License](https://img.shields.io/badge/License-MIT-yellow.svg)"},
     
     {license: "Mozilla Public License",
     link: "https://opensource.org/licenses/MPL-2.0",
-    badge: "[![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]"},
+    badge: "![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)"},
     
     {license: "Public Domain Dedication and License",
     link: "https://opendatacommons.org/licenses/pddl/",
-    badge: "[![License](https://img.shields.io/badge/License-PDDL-brightgreen.svg)]"}
+    badge: "![License](https://img.shields.io/badge/License-PDDL-brightgreen.svg)"}
 ]
 
 let createReadMe = (title, licenseBadge, description, tableContents, installation, usage, license, licenseLink, contributing, tests, gitHub, email) => {
